@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f9f5eb;
+    color: #3d2b1f;
+}
+.header {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('img/coffee-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+e.title {
+    font-size: clamp(3.5rem, 12vw, 10rem);
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.7);
+    text-align: center;
+}
+.title a {
+    color: white;
+    text-decoration: none;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+.menu {
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+.item {
+    width: 340px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    transition: transform 0.25s;
+}
+.item:hover {
+    transform: translateY(-8px);
+}
+.picture {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.info {
+    padding: 1.6rem;
+    text-align: center;
+}
+.info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #6b4e31;
+}
+.info p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #555;
+}

@@ -1,0 +1,46 @@
+<svg width="174" height="174" viewBox="0 0 174 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 764">
+<g id="Group 762">
+<g id="Ellipse 2" filter="url(#filter0_f_2035_3613)">
+<circle cx="87" cy="87" r="80" fill="url(#paint0_radial_2035_3613)"/>
+</g>
+<circle id="Ellipse 4" cx="86.9996" cy="87.0001" r="78.2222" fill="url(#paint1_radial_2035_3613)"/>
+<circle id="Ellipse 3" cx="86.7973" cy="86.9999" r="73.7778" fill="white"/>
+<g id="Group 773" filter="url(#filter1_d_2035_3613)">
+<path id="Vector" d="M85.5 130C107.315 130 125 112.315 125 90.5C125 68.6848 107.315 51 85.5 51C63.6848 51 46 68.6848 46 90.5C46 112.315 63.6848 130 85.5 130Z" fill="#045384"/>
+<path id="Subtract" d="M87.5 127C109.315 127 127 109.315 127 87.5C127 65.6848 109.315 48 87.5 48C65.6848 48 48 65.6848 48 87.5C48 109.315 65.6848 127 87.5 127Z" fill="#17C8ED"/>
+<path id="Vector_2" d="M72.8 75H103.2C105.29 75 107 76.6312 107 78.625V100.375C107 102.369 105.29 104 103.2 104H72.8C70.71 104 69 102.369 69 100.375V78.625C69 76.6312 70.71 75 72.8 75Z" fill="#FDFDFD"/>
+<path id="Vector_3" d="M107 76L88 89L69 76" stroke="#17C8ED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2035_3613" x="0" y="0" width="174" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3.5" result="effect1_foregroundBlur_2035_3613"/>
+</filter>
+<filter id="filter1_d_2035_3613" x="14" y="17" width="145" height="146" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="8" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_2035_3613"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0.0784314 0 0 0 0 0.0784314 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2035_3613"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2035_3613" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_2035_3613" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(85.6957 167) rotate(-90) scale(160)">
+<stop stop-color="#FFD01F"/>
+<stop offset="0.398724" stop-color="#FE8345"/>
+<stop offset="0.633104" stop-color="#F28496"/>
+<stop offset="1" stop-color="#0092DB"/>
+</radialGradient>
+<radialGradient id="paint1_radial_2035_3613" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(85.7242 165.222) rotate(-90) scale(156.444)">
+<stop stop-color="#FFD01F"/>
+<stop offset="0.398724" stop-color="#FE8345"/>
+<stop offset="0.633104" stop-color="#F28496"/>
+<stop offset="1" stop-color="#0092DB"/>
+</radialGradient>
+</defs>
+</svg>

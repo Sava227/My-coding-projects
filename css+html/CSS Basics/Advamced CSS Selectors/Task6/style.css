@@ -1,0 +1,11 @@
+div > p {
+    color: green;
+}
+
+.box > p {
+    color: green;
+}
+
+.inner-box p {
+    color: red;
+}

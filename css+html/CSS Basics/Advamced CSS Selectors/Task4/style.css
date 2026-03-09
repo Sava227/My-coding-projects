@@ -1,0 +1,9 @@
+.box .toy {
+    color: green;
+    font-weight: bold;
+}
+
+.shelf .toy {
+    color: blue;
+    font-weight: bold;
+}

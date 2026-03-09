@@ -1,0 +1,30 @@
+#archivements {
+    background-color: #a8d5c2;
+    padding: 20px;
+}
+
+.photo-item {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+.available {
+    border: 3px solid green;
+}
+
+.blocked {
+    border: 3px solid gray;
+}
+
+.blocked img {
+    filter: grayscale(100%);
+}
+
+.clear {
+    clear: both;
+}

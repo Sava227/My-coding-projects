@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Simple Calculator</h1>
+      <p class="sub">HTML/CSS UI + Python backend</p>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="basic">Basic</button>
+      <button class="tab" data-tab="expr">Expression</button>
+      <button class="tab" data-tab="powroot">Power / Root</button>
+      <button class="tab" data-tab="solve">Solve x</button>
+    </nav>
+
+    <main class="panel">
+      <section class="tabpane active" id="basic">
+        <h2>Basic operations</h2>
+
+        <div class="grid2">
+          <label>Input a <input id="basic-a" placeholder="e.g. (2+3)*4" /></label>
+          <label>Input b <input id="basic-b" placeholder="e.g. 5^2" /></label>
+        </div>
+
+        <div class="row">
+          <button data-basic="add">a + b</button>
+          <button data-basic="sub">a - b</button>
+          <button data-basic="mul">a × b</button>
+          <button data-basic="div">a ÷ b</button>
+          <button id="basic-clear" class="secondary">Clear</button>
+        </div>
+
+        <div class="out" id="basic-out">Result: </div>
+        <p class="hint">Tip: <code>^</code> is allowed (it will be treated like power).</p>
+      </section>
+
+      <section class="tabpane" id="expr">
+        <h2>Evaluate expression</h2>
+        <label>Expression
+          <input id="expr-in" value="(2+3)*4 - 5^2" />
+        </label>
+        <div class="row">
+          <button id="expr-eval">Evaluate</button>
+          <button id="expr-clear" class="secondary">Clear</button>
+        </div>
+        <div class="out" id="expr-out">Result: </div>
+      </section>
+
+      <section class="tabpane" id="powroot">
+        <h2>Power / Root</h2>
+
+        <div class="card">
+          <h3>Power</h3>
+          <div class="grid2">
+            <label>Base (a) <input id="pow-a" placeholder="e.g. 2" /></label>
+            <label>Exponent (b) <input id="pow-b" placeholder="e.g. 8" /></label>
+          </div>
+          <div class="row">
+            <button id="pow-go">Compute a^b</button>
+            <button id="pow-clear" class="secondary">Clear</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Root</h3>
+          <div class="grid2">
+            <label>Value <input id="root-value" placeholder="e.g. 81" /></label>
+            <label>Degree (n) <input id="root-n" placeholder="e.g. 4" /></label>
+          </div>
+          <div class="row">
+            <button id="root-go">Compute n-th root</button>
+            <button id="root-clear" class="secondary">Clear</button>
+          </div>
+        </div>
+
+        <div class="out" id="powroot-out">Result: </div>
+      </section>
+
+      <section class="tabpane" id="solve">
+        <h2>Solve linear equation for x</h2>
+        <label>Equation
+          <input id="eq-in" value="2x+3=7-x" />
+        </label>
+        <div class="row">
+          <button id="eq-go">Solve</button>
+          <button id="eq-clear" class="secondary">Clear</button>
+          <button id="eq-copy" class="secondary">Copy x</button>
+        </div>
+
+        <div class="out" id="eq-out">x = </div>
+
+        <label class="mt">Explanation</label>
+        <pre class="explain" id="eq-explain"></pre>
+        <p class="hint">Supported: linear equations like <code>2x+3=7-x</code>.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

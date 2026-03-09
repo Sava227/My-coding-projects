@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px, 1fr)); /*not narrower then 300pix, adapting layout for the screens size*/
+    gap: 20px;
+}
+.photo-item {
+    position: relative;
+    overflow: hidden;
+}
+.photo-item img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+}
+
+.photo-item:hover .description {
+    display: block;
+}

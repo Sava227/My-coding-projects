@@ -1,0 +1,19 @@
+#header {
+    color: darkgreen;
+    font-size: 48px;
+    text-align: center;
+}
+
+#first-paragraph {
+    color: gray;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+#second-paragraph {
+    color: white;
+    background-color: steelblue;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 8px;
+}

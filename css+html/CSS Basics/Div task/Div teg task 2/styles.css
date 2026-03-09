@@ -1,0 +1,12 @@
+.box {
+    width: 400px;
+    height: 700px;
+    background: blue;
+}
+
+.box-inner {
+    width: 50%;
+    height: 82%;
+    background: orange;
+    margin-left: auto;
+}

@@ -1,0 +1,19 @@
+.intro {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+
+#unique1 {
+    color: blue;
+    font-size: 18px;
+}
+
+#unique2 {
+    color: green;
+    font-size: 22px;
+}
+
+#unique3 {
+    color: red;
+    font-size: 26px;
+}
