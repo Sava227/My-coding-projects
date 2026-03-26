@@ -143,7 +143,7 @@ public:
         int choice;
         cin >> choice;
 
-        switch (choice) {               //shorter case to makeshorter code :)
+        switch (choice) {               //shorter case to make shorter code :)
         case 1: showactive();      return false;
         case 2: delete_employee();     return false;
         case 3: add_employee();        return false;
