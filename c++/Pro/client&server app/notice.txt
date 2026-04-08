@@ -1,0 +1,7 @@
+Hello!
+If you are compiling this program, called client&server app, please make sure to run it on windows(visual studio),
+as it contains some windows specific libraries.
+
+Kind regards,
+Sav.
+Notice for April 2026.
