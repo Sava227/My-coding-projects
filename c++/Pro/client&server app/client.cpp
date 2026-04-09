@@ -54,7 +54,6 @@ int main() {
         recv(s1, buf, sizeof(buf) - 1, 0);
         cout<<"Server: "<<buf<<endl;
     }
-
     closesocket(s1);
     WSACleanup();
 
