@@ -1,0 +1,89 @@
+{
+    "galaxies": {
+        "milky_way": {
+            "solar_system": {
+                "stars": {
+                    "Sun": {
+                        "Mean distance from the Galactic Center": 123,
+                        "Mean radius, :E": 109.3
+                    }
+                },
+                "planets": {
+                    "Mercury": {
+                        "Mean distance from the Sun, AU": 0.387,
+                        "Equatorial radius, :E": 0.3825,
+                        "Orbital period, days": 87.969,
+                        "Moons": 0
+                    },
+                    "Venus": {
+                        "Mean distance from the Sun, AU": 0.723,
+                        "Equatorial radius, :E": 0.9488,
+                        "Orbital period, days": 224.701,
+                        "Moons": 0
+                    },
+                    "Earth": {
+                        "Mean distance from the Sun, AU": 1.0,
+                        "Equatorial radius, :E": 1,
+                        "Orbital period, days": 365.256,
+                        "Moons": 1
+                    },
+                    "Mars": {
+                        "Mean distance from the Sun, AU": 1.523,
+                        "Equatorial radius, :E": 0.532,
+                        "Orbital period, days": 686.971,
+                        "Moons": 2
+                    },
+                    "Jupiter": {
+                        "Mean distance from the Sun, AU": 5.203,
+                        "Equatorial radius, :E": 11.209,
+                        "Orbital period, days": 4332.59,
+                        "Moons": 79
+                    },
+                    "Saturn": {
+                        "Mean distance from the Sun, AU": 9.537,
+                        "Equatorial radius, :E": 9.449,
+                        "Orbital period, days": 10759.22,
+                        "Moons": 82
+                    },
+                    "Uranus": {
+                        "Mean distance from the Sun, AU": 19.191,
+                        "Equatorial radius, :E": 4.007,
+                        "Orbital period, days": 30688.5,
+                        "Moons": 27
+                    },
+                    "Neptune": {
+                        "Mean distance from the Sun, AU": 30.068,
+                        "Equatorial radius, :E": 3.883,
+                        "Orbital period, days": 60182,
+                        "Moons": 14
+                    }
+                },
+                "dwarf_planets": {
+                    "Ceres": {
+                        "Mean distance from the Sun, AU": 2.766,
+                        "Mean radius, :E": 0.0742,
+                        "Orbital period, years": 4.599,
+                        "Moons": 0
+                    },
+                    "Haumea": {
+                        "Mean distance from the Sun, AU": 43.335,
+                        "Mean radius, :E": 0.13,
+                        "Orbital period, years": 283.8,
+                        "Moons": 2
+                    },
+                    "Pluto": {
+                        "Mean distance from the Sun, AU": 39.482,
+                        "Mean radius, :E": 0.186,
+                        "Orbital period, years": 247.9,
+                        "Moons": 5
+                    }
+                },
+                "satellites": {
+                    "Moon": {
+                        "Mean radius, :E": 0.272
+                    }
+                }
+            }
+        }
+    }
+}
